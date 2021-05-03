@@ -43,7 +43,7 @@ public class Main {
 		userManager.logOut(student);
 		
 		User[] users= {student,student2};
-		userManager.mutipleSingUp(users);
+		userManager.mutipleSignUp(users);
 		
 		
 		
