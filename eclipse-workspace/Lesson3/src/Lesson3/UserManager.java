@@ -12,9 +12,7 @@ public class UserManager {
 	public void updatePassword(User user) {
 		System.out.println(user.getFirstName() + " adlı Kullanıcı Parolası Güncellendi");
 	}
-	public void addCourse(){
-		System.out.println("Kurs Eklendi");
-	}
+	
 	public void singUp(User user) {
 		System.out.println(user.getFirstName() + user.getLastName() + " kullanıcısı eklendi.");
 	}
