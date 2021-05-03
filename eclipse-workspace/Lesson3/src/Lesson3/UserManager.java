@@ -19,7 +19,7 @@ public class UserManager {
 		System.out.println(user.getFirstName() + user.getLastName() + " kullanıcısı eklendi.");
 	}
 	
-	public void mutipleSingUp(User[] user) {
+	public void mutipleSignUp(User[] user) {
 		for (User user2 : user) {
 			System.out.println(user2.getFirstName()+" " + user2.getLastName() + " kullanıcısı eklendi.");
 		}
